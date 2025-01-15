@@ -1,8 +1,7 @@
 Link - https://garuinja.github.io/workshop-task-5/
 
-a brief account of how you've experimented with coding skills from the workshop in response to the task
 h2 Brief Account
-- 
+- asdsa
 
 any useful notes you made from the workshop video
 links to relevant p5.js documentation pages and any other relevant sources (e.g. a Coding Train Video, if this helped you)
