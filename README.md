@@ -1,8 +1,15 @@
 Link - https://garuinja.github.io/workshop-task-5/
 
-h2 Brief Account
-- asdsa
+### Brief Account of Experimentation
+- I decided to go with a line graph
 
+### Problem Solving
+-
+
+### Future Development
+-
+
+a brief account of how you've experimented with coding skills from the workshop in response to the task
 any useful notes you made from the workshop video
 links to relevant p5.js documentation pages and any other relevant sources (e.g. a Coding Train Video, if this helped you)
 notes on problem-solving (how you resolved issues with the code, along with any outstanding issues)
