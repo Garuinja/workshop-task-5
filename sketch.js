@@ -24,7 +24,8 @@ function amountLabels(){
 }
 
 function redAmount(){
-  stroke(255,0,0)
+  stroke(255, 0, 0)
+  fill(255, 0, 0)
   for (r = 0; r < table.getRowCount(); r++){
     let row = table.getRow(r);
     let day = row.get('Red');
@@ -33,15 +34,15 @@ function redAmount(){
     // text(day, 15 + r * 60, 320);
     if (day == '0'){
       let ycoord = 420;
-      // text('fart', xcoord, ycoord);
+      circle(xcoord, ycoord, 10);
       coordinates.push(ycoord);
     }else if(day == '1'){
       let ycoord = 220;
-      // text('piss', xcoord, ycoord);
+      circle(xcoord, ycoord, 10);
       coordinates.push(ycoord);
     }else if(day == '2'){
       let ycoord = 20;
-      // text('poop', xcoord, ycoord);
+      circle(xcoord, ycoord, 10);
       coordinates.push(ycoord);
     }
   }
@@ -50,6 +51,7 @@ function redAmount(){
 
 function yellowAmount(){
   stroke(240, 247, 2);
+  fill(240, 247, 2);
   for (r = 0; r < table.getRowCount(); r++){
     let row = table.getRow(r);
     let day = row.get('Yellow');
@@ -58,15 +60,15 @@ function yellowAmount(){
     // text(day, 15 + r * 60, 320);
     if (day == '0'){
       let ycoord = 420;
-      // text('fart', xcoord, ycoord);
+      circle(xcoord, ycoord, 10);
       coordinates.push(ycoord);
     }else if(day == '1'){
       let ycoord = 220;
-      // text('piss', xcoord, ycoord);
+      circle(xcoord, ycoord, 10);
       coordinates.push(ycoord);
     }else if(day == '2'){
       let ycoord = 20;
-      // text('poop', xcoord, ycoord);
+      circle(xcoord, ycoord, 10);
       coordinates.push(ycoord);
     }
   }
@@ -75,6 +77,7 @@ function yellowAmount(){
 
 function greenAmount(){
   stroke(0, 255, 0);
+  fill(0, 255, 0);
   for (r = 0; r < table.getRowCount(); r++){
     let row = table.getRow(r);
     let day = row.get('Green');
@@ -83,15 +86,15 @@ function greenAmount(){
     // text(day, 15 + r * 60, 320);
     if (day == '0'){
       let ycoord = 420;
-      // text('fart', xcoord, ycoord);
+      circle(xcoord, ycoord, 10);
       coordinates.push(ycoord);
     }else if(day == '1'){
       let ycoord = 220;
-      // text('piss', xcoord, ycoord);
+      circle(xcoord, ycoord, 10);
       coordinates.push(ycoord);
     }else if(day == '2'){
       let ycoord = 20;
-      // text('poop', xcoord, ycoord);
+      circle(xcoord, ycoord, 10);
       coordinates.push(ycoord);
     }
   }
@@ -100,6 +103,7 @@ function greenAmount(){
 
 function orangeAmount(){
   stroke(247, 137, 2);
+  fill(247, 137, 2);
   for (r = 0; r < table.getRowCount(); r++){
     let row = table.getRow(r);
     let day = row.get('Orange');
@@ -108,15 +112,15 @@ function orangeAmount(){
     // text(day, 15 + r * 60, 320);
     if (day == '0'){
       let ycoord = 420;
-      // text('fart', xcoord, ycoord);
+      circle(xcoord, ycoord, 10);
       coordinates.push(ycoord);
     }else if(day == '1'){
       let ycoord = 220;
-      // text('piss', xcoord, ycoord);
+      circle(xcoord, ycoord, 10);
       coordinates.push(ycoord);
     }else if(day == '2'){
       let ycoord = 20;
-      // text('poop', xcoord, ycoord);
+      circle(xcoord, ycoord, 10);
       coordinates.push(ycoord);
     }
   }
@@ -138,6 +142,7 @@ function draw() {
   greenAmount();
   orangeAmount();
   stroke(0);
+  fill(0);
   strokeWeight(0);
   dayLabels();
   amountLabels();
