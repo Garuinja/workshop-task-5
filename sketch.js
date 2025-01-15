@@ -141,7 +141,6 @@ function draw() {
   yellowAmount();
   greenAmount();
   orangeAmount();
-  stroke(0);
   fill(0);
   strokeWeight(0);
   dayLabels();
